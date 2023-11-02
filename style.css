@@ -1,0 +1,25 @@
+.main-container{
+    width: 70vw;
+}
+.navbar-nav>.active>a {
+    background-color: red;
+    color: white;
+}
+
+.navbar-nav > li{
+    padding-right: 10px;
+  }
+
+  .title,a{
+    color: #d96d71;
+  }
+
+  /* ----------------------------------
+                Responsive
+    ---------------------------------- */
+    /* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .main-container{
+        width: 100vw;
+    }
+ }
